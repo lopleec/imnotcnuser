@@ -1,7 +1,7 @@
 export const PACKAGE_INFO = {
   name: "imnotcnuser",
   displayName: "imnotcnuser",
-  userAgent: "Mozilla/5.0 imnotcnuser/0.1",
+  userAgent: "Mozilla/5.0 imnotcnuser",
   repositoryUrl: "https://github.com/lopleec/imnotcnuser"
 } as const;
 

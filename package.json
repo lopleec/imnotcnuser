@@ -1,6 +1,6 @@
 {
   "name": "imnotcnuser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cross-platform CLI environment risk auditor for geo-sensitive developer tools.",
   "type": "module",
   "license": "MIT",
