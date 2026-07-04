@@ -1,0 +1,46 @@
+{
+  "name": "imnotcnuser",
+  "version": "0.1.0",
+  "description": "Cross-platform CLI environment risk auditor for geo-sensitive developer tools.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Lopleec",
+  "homepage": "https://github.com/lopleec/imnotcnuser#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopleec/imnotcnuser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lopleec/imnotcnuser/issues"
+  },
+  "keywords": [
+    "cli",
+    "environment",
+    "privacy",
+    "geoip",
+    "proxy",
+    "audit",
+    "typescript"
+  ],
+  "bin": {
+    "imnotcnuser": "dist/index.js",
+    "incu": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "dev": "npm run build && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
